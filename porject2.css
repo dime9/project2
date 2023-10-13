@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-image: url(1.jpg); */
+}
+/* #img{
+    width: 150px;
+    margin-left: 600px;
+    
+    
+} */
+.btnn{
+    box-shadow:grey(5px 20px);
+    width: 150px;
+    height: 30px;
+    background: red;
+    border: none;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease ;
+}
+
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+h2{
+    color: blue;
+}
+.first{
+    color: #fff;
+}
+
+#img2{
+    border-radius: 10px;
+    height: 200px;
+    
+}
+#cd1{
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background: linear-gradient(110.6deg, rgb(255, 237, 50) 6.3%, rgb(255, 102, 114) 61.7%, rgb(145, 75, 143) 90.6%);
+}
+#firstdiv{
+     background: radial-gradient(780px at 37.8% 100.3%, rgb(19, 55, 115) 2.2%, rgb(32, 7, 80) 20.2%, rgb(27, 88, 111) 58.6%, rgb(115, 88, 44) 75%, rgb(99, 19, 90) 89.6%, rgb(12, 51, 76) 96.1%);;
+}
+#navbar{
+    color: blueviolet;
+}
+#card1{
+    background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
+    
+}
+#navbar{
+    margin: auto;
+}
+#card2{
+     border-radius: 20px;
+
+    width: 270px;
+    height: 450px;
+    text-align: center;
+    background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+}
+
+#card3{
+    margin: auto;
+    background: linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%);
+    padding-bottom: 40px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.whatsapp{
+    /* position: fixed; */
+    padding-left: 60px;
+    padding: 15px;
+    border-radius: 20px;
+    width: 100px;
+    background-color: rgb(16, 212, 16);
+    float: left;
+    z-index: 2;
+
+}
+
+@media only screen and (min-width:150px){
+    #img{
+        width: 150px;
+        margin-left: 600px;
+    }    
+    
+}
